@@ -6,12 +6,18 @@
     <link rel="stylesheet" href="estilos.css">
     <title>Sendeiros do Norte - Club de senderismo</title>
     <style>
-        h2 {
+        /*h2 {
             color: darkred;
-        }
+        }*/
 
         body {
             font-family: Arial;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #000000;
         }
     </style>
 </head>
@@ -22,7 +28,7 @@
     <header id="inicio">
         <img src="imagenes/logo.png" width="80" height="80">
         <h1>Sendeiros do Norte</h1>
-        <p style="color: green; font-size: 20px;">Club de senderismo para todos los niveles</p>
+        <p style="font-size: 20px;">Club de senderismo para todos los niveles</p>
         <div>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
@@ -63,7 +69,7 @@
             <article id="pindo">
                 <h3>Monte Pindo</h3>
                 <a href="imagenes/cumbre-grande.jpg" target="_blank" rel="noopener">
-                    <img src="imagenes/pindo.jpeg" alt="Vista del Monte Pindo al atardecer" width="400" height="267">
+                    <img src="imagenes/pindo.jpg" alt="Vista del Monte Pindo al atardecer" width="400" height="267">
                 </a>
                 <p>
                     Conocido como el «Olimpo celta», es una ruta clásica de dificultad <strong>media</strong>.
@@ -153,7 +159,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">Octubre</th>
+                        <th scope="row" rowspan="2">Octubre</th>
                         <td>11</td>
                         <td>Monte Pindo</td>
                         <td>08:00</td>
@@ -166,7 +172,7 @@
                         <td>13:00</td>
                     </tr>
                     <tr>
-                        <th scope="row">Noviembre</th>
+                        <th scope="row" rowspan="2">Noviembre</th>
                         <td>8</td>
                         <td>Fraga de Catasós</td>
                         <td>09:30</td>
@@ -187,9 +193,8 @@
         </section>
 
         <section id="material">
-            <center>
-                <h2>Qué llevar a la montaña</h2>
-            </center>
+
+            <h2 style="text-align: center;">Qué llevar a la montaña</h2>
 
             <h3>Equipo básico</h3>
             <p>
@@ -211,7 +216,7 @@
             </p>
 
             <h3>Antes de salir</h3>
-            <ol>
+            <ol style="list-style-type: upper-alpha;">
                 <li>Consultar la previsión del tiempo en <a href="https://www.meteogalicia.gal" target="_blank"
                         rel="noopener">MeteoGalicia</a>.</li>
                 <li>Avisar a alguien de la ruta y de la hora de regreso.</li>
@@ -221,7 +226,7 @@
 
             <h3>Hidratación</h3>
             <p>
-                <font color="red"><b>¡Importante!</b></font> El agua (H2O) es lo más valioso de la mochila.
+                <b>¡Importante!</b></font> El agua (H2O) es lo más valioso de la mochila.
                 Calcula <i>medio litro por hora</i> de marcha. En las cumbres la temperatura puede
                 bajar de 0&nbsp;&deg;C, así que abrígate. En caso de emergencia llama al 112.
             </p>
@@ -230,25 +235,30 @@
                 <small>Precio con IVA incluido. Se puede pagar en dos plazos.</small>
             </p>
 
-            <h5>Glosario</h5>
-            <p><b>Desnivel:</b> Diferencia de altura entre el punto de salida y el punto más alto de la ruta.</p>
-            <p><b>Cumbre:</b> Punto más alto de una montaña.</p>
-            <p><b>Sendero:</b> Camino estrecho y señalizado que se recorre a pie.</p>
+            <h3>Glosario</h3>
+            <dl>
+                <dt>Desnivel:</dt>
+                <dd> Diferencia de altura entre el punto de salida y el punto más alto de la ruta.</dd>
+                <dt>Cumbre:</dt>
+                <dd> Punto más alto de una montaña.</dd>
+                <dt>Sendero:</dt>
+                <dd>Camino estrecho y señalizado que se recorre a pie.</dd>
+            </dl>
 
 
-            <!-- Vídeo
-        <section id="video">
-            <h2>Así son nuestras salidas</h2>
-            <video width="640" height="360" poster="imagenes/poster.jpg">
-                <source src="videos/presentacion.mp4" type="video/mp4">
-                Tu navegador no admite vídeo HTML5.
-            </video>
-            <p>
-                ¿Quieres más vídeos? Visita nuestro <a href="https://www.youtube.com" target="_blank" rel="noopener">canal de YouTube</a>.
-            </p>
-        </section>
+            <section id="video">
+                <h2>Así son nuestras salidas</h2>
+                <video controls width="640" height="360" poster="imagenes/poster.jpg">
+                    <source src="videos/presentacion.mp4" type="video/mp4">
+                    Tu navegador no admite vídeo HTML5.
+                </video>
+                <p>
+                    ¿Quieres más vídeos? Visita nuestro <a href="https://www.youtube.com" target="_blank"
+                        rel="noopener">canal de YouTube</a>.
+                </p>
+            </section>
 
-        <!-- Formulario de inscripción -->
+            <!-- Formulario de inscripción -->
             <section id="inscripcion">
                 <h2>Inscripción</h2>
                 <form action="inscripcion.php" method="post">
