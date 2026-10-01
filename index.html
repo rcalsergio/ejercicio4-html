@@ -1,14 +1,21 @@
 <html>
+
 <head>
-    <meta name="description" content="Club de senderismo de Galicia: rutas, material e inscripciones"
-    <meta name="author" content="Sendeiros do Norte">
+    <meta name="description" content="Club de senderismo de Galicia: rutas, material e inscripciones" name="author"
+        content="Sendeiros do Norte">
     <link rel="stylesheet" href="estilos.css">
-    <titel>Sendeiros do Norte - Club de senderismo</title>
+    <title>Sendeiros do Norte - Club de senderismo</title>
     <style>
-        h2 { color: darkred; }
-        body { font-family: Arial; }
+        h2 {
+            color: darkred;
+        }
+
+        body {
+            font-family: Arial;
+        }
     </style>
 </head>
+
 <body>
 
     <!-- Cabecera y menú principal -->
@@ -19,9 +26,9 @@
         <div>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#rutas">Rutas</a>
+                <li><a href="#rutas">Rutas</a></li>
                 <li><a href="#materiales">Material</a></li>
-                <li><a href="#video">Vídeo</a></li
+                <li><a href="#video">Vídeo</a></li>
                 <li><a href="#inscripcion">Inscripción</a></li>
             </ul>
         </div>
@@ -32,13 +39,13 @@
         <section id="presentacion">
             <h1>Bienvenidos al club</h1>
             <p>
-                Somos un grupo de <strong><em>aficionados a la montaña</strong></em> que sale a caminar
+                Somos un grupo de <strong><em>aficionados a la montaña</em></strong> que sale a caminar
                 cada fin de semana. Nuestro lema es <em>«sin prisa, pero sin pausa»</em>.
                 Nos encanta la combinación de montaña & mar que ofrece Galicia.
             </p>
             <figure>
                 <img src="Imagenes/portada.jpg" alt="Paisaje de montañas al amanecer" width="800" height="320">
-                <figcaption>Amanecer en una de nuestras salidas de otoño.
+                <figcaption>Amanecer en una de nuestras salidas de otoño.</figcaption>
             </figure>
             <blockquote>
                 <p>La montaña no se conquista: se recorre con respeto.</p>
@@ -68,15 +75,15 @@
                     <li>Desnivel: 550 m</li>
                     <li>Duración: 4 horas</li>
                     <li>Puntos de interés:</li>
-                        <ul>
-                            <li>Mirador de la cumbre</li>
-                            <li>Pozas de agua</li>
-                        </ul>
+                    <ul>
+                        <li>Mirador de la cumbre</li>
+                        <li>Pozas de agua</li>
+                    </ul>
                 </ul>
                 <h4>Itinerario</h4>
                 <ol>
                     <li>Salida desde el aparcamiento.</li>
-                    <li>Subida por el sendero principal.
+                    <li>Subida por el sendero principal.</li>
                     <li>Parada en el mirador.</li>
                     <li>Descenso por la ladera sur.</li>
                 </ol>
@@ -86,7 +93,7 @@
             </article>
 
             <article id="pindo">
-                <h3>Fervenza do Ézaro</h4>
+                <h3>Fervenza do Ézaro</h3>
                 <img src="imagenes/ezaro.jpg" alt="" width="400" height="267">
                 <p>
                     Ruta corta y <strong>fácil</strong>, ideal para ir en familia.
@@ -180,10 +187,13 @@
         </section>
 
         <section id="material">
-            <center><h2>Qué llevar a la montaña</h2></center>
+            <center>
+                <h2>Qué llevar a la montaña</h2>
+            </center>
 
             <h3>Equipo básico</h3>
-            <p><ul>
+            <p>
+            <ul>
                 <li>Calzado
                     <ul>
                         <li>Botas de montaña</li>
@@ -197,11 +207,13 @@
                     </ul>
                 </li>
                 <li>Mochila de 20 litros</li>
-            </ul></p>
+            </ul>
+            </p>
 
             <h3>Antes de salir</h3>
             <ol>
-                <li>Consultar la previsión del tiempo en <a href="https://www.meteogalicia.gal" target="_blank" rel="noopener">MeteoGalicia</a>.</li>
+                <li>Consultar la previsión del tiempo en <a href="https://www.meteogalicia.gal" target="_blank"
+                        rel="noopener">MeteoGalicia</a>.</li>
                 <li>Avisar a alguien de la ruta y de la hora de regreso.</li>
                 <li>Cargar la batería del móvil.</li>
                 <li>Descargar la <a href="documentos/guia-seguridad.pdf">guía de seguridad (PDF)</a>.</li>
@@ -224,7 +236,7 @@
             <p><b>Sendero:</b> Camino estrecho y señalizado que se recorre a pie.</p>
 
 
-        <!-- Vídeo
+            <!-- Vídeo
         <section id="video">
             <h2>Así son nuestras salidas</h2>
             <video width="640" height="360" poster="imagenes/poster.jpg">
@@ -237,90 +249,90 @@
         </section>
 
         <!-- Formulario de inscripción -->
-        <section id="inscripcion">
-            <h2>Inscripción</h2>
-            <form action="inscripcion.php" method="post">
-                <fieldset>
-                    <legend>Datos personales</legend>
-                    <p>
-                        <label for="nombre">Nombre completo</label><br>
-                        <input type="text" id="nombre" name="nombre" placeholder="Ana García" required>
-                    </p>
-                    <p>
-                        <label for="correo">Correo electrónico</label><br>
-                        <input type="email" id="email" name="email" required>
-                    </p>
-                    <p>
-                        <label for="edad">Edad</label><br>
-                        <input type="number" id="edad" min="16" max="99">
-                    </p>
-                    <p>
-                        <label for="fecha">Fecha de tu primera salida</label><br>
-                        <input type="date" id="fecha" name="fecha">
-                    </p>
-                </fieldset>
+            <section id="inscripcion">
+                <h2>Inscripción</h2>
+                <form action="inscripcion.php" method="post">
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <p>
+                            <label for="nombre">Nombre completo</label><br>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ana García" required>
+                        </p>
+                        <p>
+                            <label for="correo">Correo electrónico</label><br>
+                            <input type="email" id="email" name="email" required>
+                        </p>
+                        <p>
+                            <label for="edad">Edad</label><br>
+                            <input type="number" id="edad" min="16" max="99">
+                        </p>
+                        <p>
+                            <label for="fecha">Fecha de tu primera salida</label><br>
+                            <input type="date" id="fecha" name="fecha">
+                        </p>
+                    </fieldset>
 
-                <fieldset>
-                    <legend>Tu experiencia</legend>
-                    <p>Nivel:</p>
-                    <p>
-                        <input type="radio" id="nivel-bajo" name="nivel" value="bajo">
-                        <label for="nivel-bajo">Principiante</label>
-                        <input type="radio" id="nivel-medio" name="nivel2" value="medio">
-                        <label for="nivel-medio">Intermedio</label>
-                        <input type="radio" id="nivel-alto" name="nivel3" value="alto">
-                        <label for="nivel-alto">Avanzado</label>
-                    </p>
-                    <p>
-                        <label for="ruta">Ruta preferida</label>
-                        <select id="ruta" name="ruta">
-                            <option value="pindo">Monte Pindo</option>
-                            <option value="ezaro">Fervenza do Ézaro</option>
-                            <option value="catasos">Fraga de Catasós</option>
-                        </select>
-                    </p>
-                    <p>Necesito alquilar:</p>
-                    <p>
-                        <input type="checkbox" id="alq-bastones" name="alquiler" value="bastones">
-                        <label for="alq-bastones">Bastones</label>
-                        <input type="checkbox" id="alq-frontal" name="alquiler" value="frontal">
-                        <label for="alq-frontal">Linterna frontal</label>
-                    </p>
-                    <p>
-                        <label for="comentarios">Comentarios</label><br>
-                        <textarea name="comentarios" rows="4" cols="40"></textarea>
-                    </p>
-                </fieldset>
+                    <fieldset>
+                        <legend>Tu experiencia</legend>
+                        <p>Nivel:</p>
+                        <p>
+                            <input type="radio" id="nivel-bajo" name="nivel" value="bajo">
+                            <label for="nivel-bajo">Principiante</label>
+                            <input type="radio" id="nivel-medio" name="nivel2" value="medio">
+                            <label for="nivel-medio">Intermedio</label>
+                            <input type="radio" id="nivel-alto" name="nivel3" value="alto">
+                            <label for="nivel-alto">Avanzado</label>
+                        </p>
+                        <p>
+                            <label for="ruta">Ruta preferida</label>
+                            <select id="ruta" name="ruta">
+                                <option value="pindo">Monte Pindo</option>
+                                <option value="ezaro">Fervenza do Ézaro</option>
+                                <option value="catasos">Fraga de Catasós</option>
+                            </select>
+                        </p>
+                        <p>Necesito alquilar:</p>
+                        <p>
+                            <input type="checkbox" id="alq-bastones" name="alquiler" value="bastones">
+                            <label for="alq-bastones">Bastones</label>
+                            <input type="checkbox" id="alq-frontal" name="alquiler" value="frontal">
+                            <label for="alq-frontal">Linterna frontal</label>
+                        </p>
+                        <p>
+                            <label for="comentarios">Comentarios</label><br>
+                            <textarea name="comentarios" rows="4" cols="40"></textarea>
+                        </p>
+                    </fieldset>
 
-                <p>
-                    <input type="checkbox" id="acepto" name="acepto" required>
-                    <label for="acepto">He leído el <a href="aviso-legal.html">aviso legal</a></label>
-                </p>
-                <p>
-                    <buton type="submit">Enviar inscripción</buton>
-                    <button type="reset">Borrar datos</button>
-                </p>
-            </form>
-        </section>
+                    <p>
+                        <input type="checkbox" id="acepto" name="acepto" required>
+                        <label for="acepto">He leído el <a href="aviso-legal.html">aviso legal</a></label>
+                    </p>
+                    <p>
+                        <button type="submit">Enviar inscripción</button>
+                        <button type="reset">Borrar datos</button>
+                    </p>
+                </form>
+            </section>
 
-        <aside>
-            <h2>Enlaces de interés</h2>
-            <ul>
-                <li><a href="www.turismo.gal" target="_blank" rel="noopener">Turismo de Galicia</a></li>
-                <li><a href="info@sendeirosdonorte.example">Escríbenos por correo</a></li>
-                <li><a href="+34600000000">Llámanos: 600 00 00 00</a></li>
-            </ul>
-            <h3>Otras páginas</h3>
-            <ul>
-                <li><a href="rutas.html">Todas las rutas</a></li>
-                <li><a href="aviso-legal.html">Aviso legal</a></li>
-            </ul>
-        </aside>
+            <aside>
+                <h2>Enlaces de interés</h2>
+                <ul>
+                    <li><a href="www.turismo.gal" target="_blank" rel="noopener">Turismo de Galicia</a></li>
+                    <li><a href="info@sendeirosdonorte.example">Escríbenos por correo</a></li>
+                    <li><a href="+34600000000">Llámanos: 600 00 00 00</a></li>
+                </ul>
+                <h3>Otras páginas</h3>
+                <ul>
+                    <li><a href="rutas.html">Todas las rutas</a></li>
+                    <li><a href="aviso-legal.html">Aviso legal</a></li>
+                </ul>
+            </aside>
 
     </main>
 
     <footer>
-        <p>&copy 2026 Sendeiros do Norte. Todos los derechos reservados.
+        <p>&copy 2026 Sendeiros do Norte. Todos los derechos reservados.</p>
         <address>
             Calle del Monte, 12<br>
             15000 A Coruña<br>
@@ -338,4 +350,5 @@
     </footer>
 
 </body>
+
 </html>
