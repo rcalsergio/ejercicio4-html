@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    color: #222222;
+    background-color: #ffffff;
+}
+
+/* Cabecera */
+header {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 0 20px;
+    align-items: center;
+    padding-bottom: 25px;
+    margin-bottom: 40px;
+}
+
+header img {
+    grid-row: span 2;
+    border-radius: 50%;
+}
+
+header h1 {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+#textoConEstilo {
+    margin: 0;
+    color: green; 
+    font-size: 20px;
+}
+
+header div {
+    margin-top: 20px;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Secciónes */
+
+section {
+    margin-bottom: 50px;
+}
+
+/* Artículos */
+
+article {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+/* Titulos */
+
+h2 {
+    font-size: 1.4rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: darkred;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 5px;
+}
+
+h3, h4 {
+    color: #333333;
+    margin-top: 25px;
+}
+
+/* Imágenes */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.95rem;
+}
+
+th, td {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+    background-color: #f9f9f9;
+}
+
+/* Formulario*/
+fieldset {
+    border: 1px solid #999999;
+    padding: 15px 20px;
+    margin: 15px 0;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    padding: 4px 6px;
+    margin: 4px 0 10px 0;
+    border: 1px solid #777777;
+}
+
+button {
+    padding: 5px 12px;
+    background-color: #efefef;
+    color: #000000;
+    border: 1px solid #777777;
+}
+
+button:hover {
+    background-color: #e2e2e2;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #dddddd;
+    font-size: 0.9rem;
+    color: #666666;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
